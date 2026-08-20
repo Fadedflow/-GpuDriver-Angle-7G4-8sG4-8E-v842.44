@@ -1,0 +1,8 @@
+id=adreno_gpu_driver
+name=Adreno™ 722/825/830 GPU Drivers （ANGLE|Game driver）|Full
+version=v3.0
+versionCode=842.44
+author=@AndroidSystem(coolapkUID:1681144)-for extracting (@SkyMi@ortooom,thanks to @SeniorFurry)-for flashing template
+description=Switch the target app in the DeveloperOptions to use ANGLE translation/Graphics Driver Preferences.Thanks to all our testers
+banner=ugd.png
+

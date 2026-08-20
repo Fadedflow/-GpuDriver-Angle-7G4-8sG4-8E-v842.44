@@ -1,0 +1,21 @@
+# Zygote HideCrash Fix
+#ro.zygote.disable_gl_preload=true
+# Graphics
+vendor.hwc.dpp.downscale=4
+vendor.display.vds_allow_hwc=1
+debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
+#angle#
+ro.gfx.angle.supported=true
+debug.graphics.angle.developeroption.enable=true
+debug.angle.feature_overrides_enabled=true
+debug.angle.feature_overrides_enabled=preferLinearFilterForYUV:mapUnspecifiedColorSpaceToPassThrough
+#vulkan#
+ro.hwui.use_vulkan=true
+debug.renderengine.vulkan=true
+debug.hwui.renderer=skiavk
+debug.renderengine.backend=skiavkthreaded
+debug.stagefright.renderengine.backend=threaded
+#全局angle#
+#persist.graphics.egl=angle
